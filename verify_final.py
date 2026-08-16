@@ -66,7 +66,7 @@ def check_docs() -> None:
         "Cheryl Johnson",
         "NOT_REPRODUCED",
         "ICPSR",
-        "official implementation",
+        "Official implementation",
         "Thank you",
     ):
         if marker not in readme:
