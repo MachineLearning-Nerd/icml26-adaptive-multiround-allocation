@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If this audit is useful, please cite the software and the original paper."
+type: software
+title: "icml26-adaptive-multiround-allocation: Evidence audit for Adaptive Multi-Round Allocation with Stochastic Arrivals"
+version: "1.0.0"
+authors:
+  - family-names: "MachineLearning-Nerd"
+    given-names: ""
+    email: "MachineLearning-Nerd@users.noreply.github.com"
+repository-code: "https://github.com/MachineLearning-Nerd/icml26-adaptive-multiround-allocation"
+url: "https://github.com/MachineLearning-Nerd/icml26-adaptive-multiround-allocation"
+date-released: 2026-08-16
+keywords:
+  - resource allocation
+  - stochastic arrivals
+  - dynamic programming
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Adaptive Multi-Round Allocation with Stochastic Arrivals"
+  authors:
+    - family-names: "Pan"
+      given-names: "Yuqi"
+    - family-names: "Choo"
+      given-names: "Davin"
+    - family-names: "Wang"
+      given-names: "Haichuan"
+    - family-names: "Tambe"
+      given-names: "Milind"
+    - family-names: "van Heerden"
+      given-names: "Alastair"
+    - family-names: "Johnson"
+      given-names: "Cheryl"
+  year: 2026
+  doi: "10.48550/arXiv.2605.12111"
+  url: "https://arxiv.org/abs/2605.12111"
