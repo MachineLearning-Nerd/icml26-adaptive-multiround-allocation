@@ -90,7 +90,8 @@ def check_docs() -> None:
     for marker in ("repository-code:", "10.48550/arXiv.2605.12111", "Johnson"):
         if marker not in citation:
             fail(f"citation file is missing marker: {marker}")
-    if (ROOT / "requirements.txt").read_text().splitlines() != [
+    requirements = [line for line in (ROOT / "requirements.txt").read_text().splitlines() if line]
+    if requirements != [
         "numpy==2.3.1",
         "pytest==8.4.1",
     ]:
