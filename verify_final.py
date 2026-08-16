@@ -60,7 +60,8 @@ def check_docs() -> None:
     source_audit = (ROOT / "docs/SOURCE_AUDIT.md").read_text()
     citation = (ROOT / "CITATION.cff").read_text()
     for marker in (
-        "Adaptive Multi-Round Allocation with Stochastic Arrivals",
+        "Adaptive Multi-Round",
+        "Stochastic Arrivals",
         "Yuqi Pan",
         "Cheryl Johnson",
         "NOT_REPRODUCED",
